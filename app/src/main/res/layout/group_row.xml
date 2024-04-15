@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="7dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    app:cardCornerRadius="16dp"
+
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/row_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:autoLink="all"
+            android:gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row_name"
+            android:id="@+id/layout2"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <TextView
+                android:id="@+id/row_day_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:gravity="center_horizontal"
+                android:text="Hour"
+
+
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:text=":"
+                android:textColor="@color/black"
+                />
+
+
+
+            <TextView
+                android:id="@+id/row_day_minute"
+                android:autoLink="all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+
+                android:text="Minute"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/row_total_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grand Total"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/layout2"
+            android:autoLink="all"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+
+
+            android:gravity="center_horizontal" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

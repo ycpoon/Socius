@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "638767944707",
+    "project_id": "socius-98ddf",
+    "storage_bucket": "socius-98ddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638767944707:android:9f183188be61f6c4812a36",
+        "android_client_info": {
+          "package_name": "com.example.socius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638767944707-6i3r3m2095a973lamoine6ctvcco5n1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnCqdqzcs37bbxX-W6OwSZt0U-4caxCYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638767944707-6i3r3m2095a973lamoine6ctvcco5n1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
